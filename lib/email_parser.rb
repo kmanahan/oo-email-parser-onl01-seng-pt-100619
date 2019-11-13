@@ -9,10 +9,9 @@ class EmailAddressParser
   def initialize(email) 
     @email = email 
   end 
-  
+   binding.pry
   def parse(data)
-    
-  binding.pry
+   
    @email.split(" ")  
   end 
 
