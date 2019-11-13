@@ -9,7 +9,7 @@ class EmailAddressParser
     @email = email 
   end 
   
-  def parse 
+  def parse
    @email.split(" ")  
   end 
 
@@ -26,4 +26,3 @@ end
 #     new.artist_name = singer
 #     new.name = song.split(".")[0]
 #     new
-  end
