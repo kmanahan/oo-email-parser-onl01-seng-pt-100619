@@ -14,3 +14,16 @@ class EmailAddressParser
   end 
 
 end 
+
+# def self.new_from_filename(data)
+#     # binding.pry
+#     row = data.split(" - ")
+    
+#     singer = row[0]
+#     song = row[1]
+    
+#     new = self.new
+#     new.artist_name = singer
+#     new.name = song.split(".")[0]
+#     new
+  end
